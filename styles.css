@@ -50,7 +50,28 @@ body {
   text-decoration: underline;
 }
 
+.area-principal {
+  display: flex;
+}
+
+.lateral {
+  width: 230px;
+  background-color: #f0f0f0;
+  padding: 25px 20px;
+  border-right: 1px solid #dddddd;
+}
+
+.lateral h2,
+.lateral h3 {
+  color: #24476f;
+}
+
+.lateral ul {
+  padding-left: 20px;
+}
+
 .conteudo {
+  flex: 1;
   padding: 25px;
 }
 
@@ -58,6 +79,10 @@ section {
   margin-bottom: 35px;
   padding-bottom: 25px;
   border-bottom: 1px solid #dddddd;
+}
+
+section:last-child {
+  border-bottom: 0;
 }
 
 section h2 {
@@ -118,6 +143,16 @@ figcaption {
   .menu a {
     display: block;
     margin: 6px 0;
+  }
+
+  .area-principal {
+    display: block;
+  }
+
+  .lateral {
+    width: auto;
+    border-right: 0;
+    border-bottom: 1px solid #dddddd;
   }
 
   .conteudo {
