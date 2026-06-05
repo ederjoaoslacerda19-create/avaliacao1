@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9eef5;
+  color: #222222;
+  line-height: 1.6;
+}
+
+.pagina {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  min-height: 100vh;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}
+
+.topo {
+  background-color: #24476f;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.topo h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.topo p {
+  margin-bottom: 0;
+}
+
+.menu {
+  background-color: #d7e3f1;
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #cccccc;
+}
+
+.menu a {
+  color: #24476f;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 12px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.conteudo {
+  padding: 25px;
+}
+
+section {
+  margin-bottom: 35px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dddddd;
+}
+
+section h2 {
+  color: #24476f;
+  margin-top: 0;
+}
+
+.formula {
+  background-color: #f4f4f4;
+  border: 1px solid #cccccc;
+  padding: 14px;
+  margin: 18px 0;
+  font-family: "Courier New", monospace;
+  overflow-x: auto;
+}
+
+ol {
+  padding-left: 22px;
+}
+
+figure {
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  border: 1px solid #bbbbbb;
+}
+
+figcaption {
+  font-size: 14px;
+  color: #555555;
+  margin-top: 8px;
+}
+
+.rodape {
+  background-color: #24476f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.rodape p {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .pagina {
+    width: 100%;
+    border: 0;
+  }
+
+  .topo h1 {
+    font-size: 26px;
+  }
+
+  .menu a {
+    display: block;
+    margin: 6px 0;
+  }
+
+  .conteudo {
+    padding: 18px;
+  }
+}
